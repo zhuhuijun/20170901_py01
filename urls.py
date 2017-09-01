@@ -16,6 +16,6 @@ urlpatterns = patterns('',
     # url(r'^admin/', include(admin.site.urls)),
     url(r'^blog/index/$','blog.views.index'),
     #url(r'^calc/index/$','calc.views.index'),
-    url(r'^add/$','calc.views.add',name='add'),
+    url(r'^add/$','calc.views.add',name='add'), 
     url(r'^add/(\d+)/(\d+)/$', calc.views.add2, name='add2'),
 )
