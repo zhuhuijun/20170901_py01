@@ -1,9 +1,11 @@
 # Create your views here.
 # coding:utf-8
 from django.http import HttpResponse
+from django.shortcuts import render
 
 def index(req):
-    return HttpResponse(u'<h1>Hello,World!我得世界！</h1>')
+    #return HttpResponse(u'<h1>Hello,World!我得世界！</h1>')
+    return render(req, 'home.html')
 # Create your views here.
 def add(request):
     a = request.GET['a']
