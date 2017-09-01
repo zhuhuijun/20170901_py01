@@ -17,5 +17,5 @@ urlpatterns = patterns('',
     url(r'^blog/index/$','blog.views.index'),
     url(r'^calc/index/$','calc.views.index'),
     url(r'^add/$','calc.views.add',name='add'), 
-    url(r'^add2/(\d+)/(\d+)/$', calc.views.add2, name='add2'),
+    url(r'^add2/(\d+)/(\d+)/$', 'calc.views.add2', name='add2'),
 )
