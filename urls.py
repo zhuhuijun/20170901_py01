@@ -19,4 +19,6 @@ urlpatterns = patterns('',
     url(r'^add/$','calc.views.add',name='add'), 
     url(r'^add/(\d+)/(\d+)/$', 'calc.views.add2', name='add2'),
     url(r'^people/index/$','people.views.index'),
+    url(r'^people/myindex/$','people.views.myindex'),
+
 )
