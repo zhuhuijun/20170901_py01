@@ -1,4 +1,5 @@
 # Create your views here.
+# coding:utf-8
 from django.http import HttpResponse
 from people.models import Person
 from django.shortcuts import render
