@@ -20,5 +20,6 @@ urlpatterns = patterns('',
     url(r'^add/(\d+)/(\d+)/$', 'calc.views.add2', name='add2'),
     url(r'^people/index/$','people.views.index'),
     url(r'^people/myindex/$','people.views.myindex'),
+    url(r'^people/myindex2/$','people.views.myindex2'),
 
 )

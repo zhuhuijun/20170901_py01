@@ -13,3 +13,8 @@ def myindex(req):
     peoples = Person.objects.all()
     return render_to_response('default.html',{'peoples':peoples})
 
+def myindex2(req):
+    #return HttpResponse(u'<h1>Hello,World!我得世界！</h1>')
+    peoples = Person.objects.all()
+    return render_to_response('default1.html',{'peoples':peoples})
+
