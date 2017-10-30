@@ -8,6 +8,9 @@
 </head>
 <body>
 {{peoples}}
+{% for peop in peoples %}
+<div>{{forloop.counter}} {{peop}}</div>
+{% endfor %}
 </body>
 </html>
 </html>
