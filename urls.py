@@ -18,5 +18,5 @@ urlpatterns = patterns('',
     url(r'^calc/index/$','calc.views.index'),
     url(r'^add/$','calc.views.add',name='add'), 
     url(r'^add/(\d+)/(\d+)/$', 'calc.views.add2', name='add2'),
-    url(r'^people/default/$','people.views.default'),
+    url(r'^people/index/$','people.views.index'),
 )
